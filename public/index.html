@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 客户服务平台 - 登录</title>
+  <meta name="description" content="AI 客户服务平台 - 智能连接，卓越服务">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <div class="page-bg">
+    <!-- 背景粒子 -->
+    <div class="bg-particles">
+      <span></span><span></span><span></span><span></span><span></span>
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <div class="card-wrapper">
+      <!-- 机器人横幅 -->
+      <div class="robot-banner">
+        <div class="robot-scene">
+          <!-- SVG 机器人 -->
+          <svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" class="robot-svg">
+            <defs>
+              <radialGradient id="bgGrad" cx="50%" cy="50%" r="60%">
+                <stop offset="0%" stop-color="#1a2a6c"/>
+                <stop offset="100%" stop-color="#0a0a1a"/>
+              </radialGradient>
+              <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#4361ee" stop-opacity="0.6"/>
+                <stop offset="100%" stop-color="#4361ee" stop-opacity="0"/>
+              </radialGradient>
+              <filter id="glow">
+                <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+                <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+              </filter>
+            </defs>
+            <!-- 背景 -->
+            <rect width="400" height="200" fill="url(#bgGrad)"/>
+            <!-- 光晕 -->
+            <ellipse cx="200" cy="100" rx="120" ry="80" fill="url(#glowBlue)"/>
+            <!-- 网格线 -->
+            <g stroke="#4361ee" stroke-width="0.3" opacity="0.3">
+              <line x1="0" y1="50" x2="400" y2="50"/>
+              <line x1="0" y1="100" x2="400" y2="100"/>
+              <line x1="0" y1="150" x2="400" y2="150"/>
+              <line x1="80" y1="0" x2="80" y2="200"/>
+              <line x1="160" y1="0" x2="160" y2="200"/>
+              <line x1="240" y1="0" x2="240" y2="200"/>
+              <line x1="320" y1="0" x2="320" y2="200"/>
+            </g>
+            <!-- 电路线条 -->
+            <g stroke="#00d4ff" stroke-width="1" fill="none" opacity="0.4" filter="url(#glow)">
+              <polyline points="20,80 60,80 80,60 120,60"/>
+              <polyline points="280,60 320,60 340,80 380,80"/>
+              <polyline points="20,140 60,140 80,160 120,160"/>
+              <polyline points="280,160 320,160 340,140 380,140"/>
+            </g>
+            <!-- 粒子点 -->
+            <g fill="#4361ee" opacity="0.8">
+              <circle cx="60" cy="80" r="3" filter="url(#glow)"/>
+              <circle cx="340" cy="80" r="3" filter="url(#glow)"/>
+              <circle cx="60" cy="140" r="3" filter="url(#glow)"/>
+              <circle cx="340" cy="140" r="3" filter="url(#glow)"/>
+              <circle cx="120" cy="40" r="2"/>
+              <circle cx="280" cy="40" r="2"/>
+              <circle cx="150" cy="170" r="2"/>
+              <circle cx="250" cy="170" r="2"/>
+            </g>
+            <!-- 机器人身体 -->
+            <g filter="url(#glow)">
+              <!-- 头部 -->
+              <rect x="165" y="30" width="70" height="55" rx="12" fill="#1e3a8a" stroke="#4361ee" stroke-width="1.5"/>
+              <!-- 眼睛 -->
+              <ellipse cx="185" cy="52" rx="8" ry="7" fill="#0a0a2a"/>
+              <ellipse cx="215" cy="52" rx="8" ry="7" fill="#0a0a2a"/>
+              <ellipse cx="185" cy="52" rx="5" ry="5" fill="#00d4ff" opacity="0.9"/>
+              <ellipse cx="215" cy="52" rx="5" ry="5" fill="#00d4ff" opacity="0.9"/>
+              <!-- 眼睛内光 -->
+              <ellipse cx="183" cy="50" rx="2" ry="2" fill="white" opacity="0.8"/>
+              <ellipse cx="213" cy="50" rx="2" ry="2" fill="white" opacity="0.8"/>
+              <!-- 嘴巴 -->
+              <rect x="183" y="70" width="34" height="6" rx="3" fill="#0a0a2a"/>
+              <rect x="186" y="71" width="6" height="4" rx="1" fill="#4361ee"/>
+              <rect x="197" y="71" width="6" height="4" rx="1" fill="#4361ee"/>
+              <rect x="208" y="71" width="6" height="4" rx="1" fill="#4361ee"/>
+              <!-- 天线 -->
+              <line x1="200" y1="30" x2="200" y2="18" stroke="#4361ee" stroke-width="2"/>
+              <circle cx="200" cy="15" r="5" fill="#4361ee"/>
+              <circle cx="200" cy="15" r="8" fill="none" stroke="#4361ee" stroke-width="1" opacity="0.5"/>
+              <!-- 耳朵 -->
+              <rect x="152" y="45" width="13" height="20" rx="4" fill="#1e3a8a" stroke="#4361ee" stroke-width="1"/>
+              <rect x="235" y="45" width="13" height="20" rx="4" fill="#1e3a8a" stroke="#4361ee" stroke-width="1"/>
+              <!-- 脖子 -->
+              <rect x="185" y="85" width="30" height="12" rx="4" fill="#1e3a8a" stroke="#4361ee" stroke-width="1"/>
+              <!-- 身体 -->
+              <rect x="155" y="97" width="90" height="75" rx="10" fill="#1e3a8a" stroke="#4361ee" stroke-width="1.5"/>
+              <!-- 胸部面板 -->
+              <rect x="170" y="110" width="60" height="40" rx="6" fill="#0f1f4a" stroke="#4361ee" stroke-width="1"/>
+              <!-- 状态指示灯 -->
+              <circle cx="182" cy="122" r="5" fill="#00ff88" opacity="0.9" filter="url(#glow)"/>
+              <circle cx="200" cy="122" r="5" fill="#4361ee" filter="url(#glow)"/>
+              <circle cx="218" cy="122" r="5" fill="#00d4ff" opacity="0.7"/>
+              <!-- 波形 -->
+              <polyline points="172,138 178,133 183,143 189,133 195,143 201,133 207,143 213,133 218,143 224,138" stroke="#00d4ff" stroke-width="1.5" fill="none"/>
+              <!-- 手臂 -->
+              <rect x="113" y="100" width="42" height="18" rx="9" fill="#1e3a8a" stroke="#4361ee" stroke-width="1"/>
+              <rect x="245" y="100" width="42" height="18" rx="9" fill="#1e3a8a" stroke="#4361ee" stroke-width="1"/>
+            </g>
+            <!-- 浮动顶部文字 -->
+            <text x="200" y="195" text-anchor="middle" fill="#4361ee" font-size="10" opacity="0.7" font-family="Arial">INTELLIGENT CUSTOMER SERVICE</text>
+          </svg>
+          <!-- 动态光环 -->
+          <div class="pulse-ring"></div>
+          <div class="pulse-ring delay-1"></div>
+        </div>
+      </div>
+
+      <!-- 主卡片 -->
+      <div class="main-card">
+        <!-- Logo -->
+        <div class="logo-container">
+          <div class="logo-icon">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+              <rect width="32" height="32" rx="8" fill="white" opacity="0.2"/>
+              <circle cx="12" cy="14" r="3" fill="white" opacity="0.9"/>
+              <circle cx="20" cy="14" r="3" fill="white" opacity="0.9"/>
+              <circle cx="12" cy="14" r="1.5" fill="#3b4ef8"/>
+              <circle cx="20" cy="14" r="1.5" fill="#3b4ef8"/>
+              <rect x="10" y="20" width="12" height="3" rx="1.5" fill="white" opacity="0.7"/>
+              <line x1="16" y1="6" x2="16" y2="3" stroke="white" stroke-width="1.5"/>
+              <circle cx="16" cy="2" r="1.5" fill="white"/>
+            </svg>
+          </div>
+        </div>
+        <h1 class="platform-title">AI 客户服务平台</h1>
+        <p class="platform-subtitle">智能连接，卓越服务</p>
+
+        <!-- Tab 切换 -->
+        <div class="tab-container">
+          <button class="tab-btn active" id="loginTab" onclick="switchTab('login')">登录账号</button>
+          <button class="tab-btn" id="registerTab" onclick="switchTab('register')">注册新用户</button>
+        </div>
+
+        <!-- 登录表单 -->
+        <form id="loginForm" class="auth-form" onsubmit="handleLogin(event)">
+          <div class="form-group">
+            <label class="form-label">用户名</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
+              <input type="text" id="loginUsername" placeholder="请输入您的用户名或邮箱" class="form-input" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="label-row">
+              <label class="form-label">密码</label>
+              <a href="#" class="forgot-link">忘记密码？</a>
+            </div>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+              </svg>
+              <input type="password" id="loginPassword" placeholder="请输入您的登录密码" class="form-input" required>
+              <button type="button" class="eye-btn" onclick="togglePassword('loginPassword', this)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="remember-row">
+            <label class="checkbox-label">
+              <input type="checkbox" id="rememberMe">
+              <span class="checkbox-custom"></span>
+              记住登录状态
+            </label>
+          </div>
+          <button type="submit" class="submit-btn" id="loginBtn">
+            <span class="btn-text">登录系统</span>
+            <span class="btn-loader" style="display:none">
+              <svg class="spin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="40" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div id="loginError" class="error-msg" style="display:none"></div>
+        </form>
+
+        <!-- 注册表单 -->
+        <form id="registerForm" class="auth-form" style="display:none" onsubmit="handleRegister(event)">
+          <div class="form-group">
+            <label class="form-label">用户名</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
+              <input type="text" id="regUsername" placeholder="请输入用户名（3-20个字符）" class="form-input" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">邮箱（选填）</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+              <input type="email" id="regEmail" placeholder="请输入邮箱地址" class="form-input">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">密码</label>
+            <div class="input-wrap">
+              <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+              </svg>
+              <input type="password" id="regPassword" placeholder="请设置登录密码（至少6位）" class="form-input" required>
+              <button type="button" class="eye-btn" onclick="togglePassword('regPassword', this)">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <button type="submit" class="submit-btn" id="registerBtn">
+            <span class="btn-text">注册账号</span>
+            <span class="btn-loader" style="display:none">
+              <svg class="spin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="40" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div id="registerError" class="error-msg" style="display:none"></div>
+        </form>
+
+        <!-- 第三方登录 -->
+        <div class="divider"><span>或者使用以下方式</span></div>
+        <div class="social-login">
+          <button class="social-btn" onclick="showToast('微信登录即将开放')">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.817-.052a4.98 4.98 0 0 1-.125-1.137c0-3.655 3.453-6.623 7.706-6.623.26 0 .52.016.777.054C16.83 4.338 13.087 2.188 8.69 2.188zm-1.47 3.33c.59 0 1.07.48 1.07 1.07 0 .59-.48 1.07-1.07 1.07-.59 0-1.07-.48-1.07-1.07 0-.59.48-1.07 1.07-1.07zm4.5 0c.59 0 1.07.48 1.07 1.07 0 .59-.48 1.07-1.07 1.07-.59 0-1.07-.48-1.07-1.07 0-.59.48-1.07 1.07-1.07z"/>
+              <path d="M24 14.072c0-3.25-3.271-5.888-7.292-5.888-4.022 0-7.293 2.638-7.293 5.888 0 3.251 3.271 5.888 7.293 5.888a8.73 8.73 0 0 0 2.463-.348.75.75 0 0 1 .622.085l1.646.963a.281.281 0 0 0 .145.047.252.252 0 0 0 .253-.253.36.36 0 0 0-.042-.185l-.338-1.282a.513.513 0 0 1 .185-.577C23.018 17.728 24 15.976 24 14.072zm-9.876-1.155c-.512 0-.928-.416-.928-.928 0-.512.416-.928.928-.928.512 0 .928.416.928.928 0 .512-.416.928-.928.928zm5.167 0c-.512 0-.928-.416-.928-.928 0-.512.416-.928.928-.928.512 0 .928.416.928.928 0 .512-.416.928-.928.928z"/>
+            </svg>
+            微信
+          </button>
+          <button class="social-btn" onclick="showToast('钉钉登录即将开放')">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path d="M11.95 2C6.458 2 2 6.458 2 11.95S6.458 21.9 11.95 21.9s9.95-4.458 9.95-9.95S17.442 2 11.95 2zm4.766 11.37c-.216.09-2.717 1.117-3.504 1.423-.244.095-.481.143-.699.143-.497 0-.876-.253-1.084-.739L10.29 11.71a.304.304 0 0 0-.292-.19.307.307 0 0 0-.3.307v4.85H8.285V8.18l.9-.383 2.28 5.093c.04.09.124.147.22.147.048 0 .094-.013.134-.04L14.637 11l1.079 2.37z"/>
+            </svg>
+            钉钉
+          </button>
+        </div>
+
+        <footer class="card-footer">
+          © 2024 AI客户服务平台 版权所有 | <a href="#">服务条款</a>
+        </footer>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast 提示 -->
+  <div id="toast" class="toast"></div>
+
+  <script src="js/login.js"></script>
+</body>
+</html>

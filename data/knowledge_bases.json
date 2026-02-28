@@ -1,0 +1,99 @@
+[
+  {
+    "id": "kb1",
+    "name": "公司政策",
+    "description": "包含人力资源、报销法程等核心文档…",
+    "icon": "📄",
+    "color": "#4F46E5",
+    "fileCount": 15,
+    "updatedAt": "2小时前",
+    "files": []
+  },
+  {
+    "id": "kb2",
+    "name": "产品常见问题",
+    "description": "汇总用户最常问的42个产品操作问题…",
+    "icon": "❓",
+    "color": "#3B82F6",
+    "fileCount": 42,
+    "updatedAt": "5小时前",
+    "files": [
+      {
+        "id": "f1",
+        "name": "2024产品更新路线图.pdf",
+        "size": "2.4 MB",
+        "uploadedAt": "10分钟前",
+        "status": "indexing"
+      },
+      {
+        "id": "f2",
+        "name": "常见登录问题解决指南.docx",
+        "size": "842 KB",
+        "uploadedAt": "1小时前",
+        "status": "synced"
+      },
+      {
+        "id": "f3",
+        "name": "API接口集成文档.txt",
+        "size": "156 KB",
+        "uploadedAt": "天天",
+        "status": "synced"
+      }
+    ]
+  },
+  {
+    "id": "kb3",
+    "name": "员工手册",
+    "description": "关于公司文化、价值观及日常行为准则…",
+    "icon": "📗",
+    "color": "#F59E0B",
+    "fileCount": 8,
+    "updatedAt": "1天前",
+    "files": []
+  },
+  {
+    "id": "kb4",
+    "name": "售后流程",
+    "description": "标准化的售后处理逻辑与退换货政策…",
+    "icon": "🔧",
+    "color": "#10B981",
+    "fileCount": 20,
+    "updatedAt": "3天前",
+    "files": []
+  },
+  {
+    "id": "kb_e82113cd",
+    "name": "daisy's个人信息",
+    "description": "",
+    "icon": "📊",
+    "color": "#F59E0B",
+    "fileCount": 3,
+    "updatedAt": "刚刚",
+    "files": [
+      {
+        "id": "f_47b5cf81",
+        "name": "2025年终总结ppt_20251224.pdf",
+        "size": "12.9 MB",
+        "uploadedAt": "刚刚",
+        "status": "synced",
+        "path": "uploads/kb_e82113cd/1772280186068_2025年终总结ppt_20251224.pdf"
+      },
+      {
+        "id": "f_31281cab",
+        "name": "2.0-产品经理认证（NPDP）知识体系指南（第2版）.pdf",
+        "size": "19.7 MB",
+        "uploadedAt": "刚刚",
+        "status": "synced",
+        "path": "uploads/kb_e82113cd/1772280852115_2.0-产品经理认证（NPDP）知识体系指南（第2版）.pdf"
+      },
+      {
+        "id": "f_19074c00",
+        "name": "WITLINK_WitCIS_STD标准版_产品培训_20260107-20260120161615.pdf",
+        "size": "7.6 MB",
+        "uploadedAt": "刚刚",
+        "status": "synced",
+        "path": "uploads/kb_e82113cd/1772281153203_WITLINK_WitCIS_STD标准版_产品培训_20260107-20260120161615.pdf"
+      }
+    ]
+  }
+]

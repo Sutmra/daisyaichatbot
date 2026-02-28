@@ -1,0 +1,41 @@
+[
+  {
+    "id": "799b75cd-26f0-4974-9314-926506559cc0",
+    "username": "admin",
+    "password": "admin123",
+    "role": "admin",
+    "avatar": "管理",
+    "email": "admin@aica.com",
+    "createdAt": "2026-02-28T11:52:41.837Z"
+  },
+  {
+    "id": "901dbd7a-5bfe-4ab5-b35f-7a493b363e5b",
+    "username": "李明",
+    "password": "123456",
+    "role": "user",
+    "avatar": "李",
+    "email": "liming@aica.com",
+    "department": "人力资源部",
+    "createdAt": "2026-02-28T11:52:41.840Z"
+  },
+  {
+    "id": "a7e4a854-cade-401a-8d7e-3078d9c33913",
+    "username": "testuser",
+    "password": "test123test123",
+    "email": "",
+    "role": "user",
+    "avatar": "t",
+    "department": "未分配",
+    "createdAt": "2026-02-28T11:54:14.722Z"
+  },
+  {
+    "id": "0b40c16c-b3b8-40f6-ac28-682b61a9bfc7",
+    "username": "daisy",
+    "password": "123456",
+    "email": "",
+    "role": "user",
+    "avatar": "d",
+    "department": "未分配",
+    "createdAt": "2026-02-28T11:56:35.390Z"
+  }
+]

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后台管理 - AI 客户服务平台</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body>
+    <!-- 侧边栏 -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="s-logo">
+                <svg viewBox="0 0 32 32" width="22" height="22" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="11" cy="13" r="3" fill="white" opacity="0.9" />
+                    <circle cx="21" cy="13" r="3" fill="white" opacity="0.9" />
+                    <circle cx="11" cy="13" r="1.5" fill="#3b4ef8" />
+                    <circle cx="21" cy="13" r="1.5" fill="#3b4ef8" />
+                    <rect x="9" y="20" width="14" height="3" rx="1.5" fill="white" opacity="0.7" />
+                    <line x1="16" y1="6" x2="16" y2="3" stroke="white" stroke-width="2" />
+                    <circle cx="16" cy="2" r="2" fill="white" />
+                </svg>
+            </div>
+            <div class="s-title-wrap">
+                <span class="s-title">AI 客服平台</span>
+                <span class="s-sub">管理后台</span>
+            </div>
+        </div>
+
+        <nav class="sidebar-nav">
+            <a href="#" class="nav-item" data-page="dashboard" onclick="navClick(event, 'dashboard')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18">
+                    <rect x="3" y="3" width="7" height="7" rx="1" />
+                    <rect x="14" y="3" width="7" height="7" rx="1" />
+                    <rect x="3" y="14" width="7" height="7" rx="1" />
+                    <rect x="14" y="14" width="7" height="7" rx="1" />
+                </svg>
+                仪表盘
+            </a>
+            <a href="#" class="nav-item active" data-page="knowledge" onclick="navClick(event, 'knowledge')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                    <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                </svg>
+                知识库管理
+            </a>
+            <a href="#" class="nav-item" data-page="history" onclick="navClick(event, 'history')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18">
+                    <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+                </svg>
+                对话历史
+            </a>
+            <a href="#" class="nav-item" data-page="robot" onclick="navClick(event, 'robot')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18">
+                    <rect x="3" y="11" width="18" height="11" rx="2" />
+                    <path d="M8 11V7a4 4 0 0 1 8 0v4" />
+                    <circle cx="12" cy="16" r="1.5" fill="currentColor" />
+                </svg>
+                机器人设置
+            </a>
+            <a href="#" class="nav-item" data-page="settings" onclick="navClick(event, 'settings')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18">
+                    <circle cx="12" cy="12" r="3" />
+                    <path
+                        d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+                </svg>
+                系统设置
+            </a>
+        </nav>
+
+        <div class="sidebar-footer">
+            <div class="user-avatar" id="userAvatarText" onclick="logout()" title="点击退出登录" style="cursor: pointer;">管
+            </div>
+            <div class="user-info">
+                <div class="user-name" id="sidebarUsername">管理员用户</div>
+                <div class="user-email" id="sidebarEmail">admin@aica.com</div>
+            </div>
+            <button class="logout-btn" onclick="logout()" title="退出登录">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="18" height="18">
+                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+                    <polyline points="16 17 21 12 16 7" />
+                    <line x1="21" y1="12" x2="9" y2="12" />
+                </svg>
+            </button>
+        </div>
+    </aside>
+
+    <!-- 主内容区 -->
+    <main class="main-content">
+        <!-- 顶部导航 -->
+        <header class="top-header">
+            <div class="breadcrumb">
+                <span class="bc-root">知识库管理</span>
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6" />
+                </svg>
+                <span class="bc-current" id="breadcrumbCurrent">文档列表</span>
+            </div>
+            <div class="header-right">
+                <div class="search-box">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="16"
+                        height="16">
+                        <circle cx="11" cy="11" r="8" />
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                    </svg>
+                    <input type="text" placeholder="搜索知识库..." id="searchInput" oninput="filterKBs()">
+                </div>
+                <button class="new-kb-btn" onclick="showCreateKBModal()">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                        <line x1="12" y1="5" x2="12" y2="19" />
+                        <line x1="5" y1="12" x2="19" y2="12" />
+                    </svg>
+                    新建知识库
+                </button>
+            </div>
+        </header>
+
+        <!-- 主体内容 -->
+        <div class="content-body">
+            <!-- 知识库卡片区 -->
+            <section class="kb-section">
+                <h2 class="section-title">现有知识库</h2>
+                <div class="kb-grid" id="kbGrid">
+                    <!-- 动态渲染 -->
+                </div>
+            </section>
+
+            <!-- 知识库详情区 -->
+            <section class="kb-detail" id="kbDetail" style="display:none">
+                <div class="detail-header">
+                    <h2 class="detail-title" id="detailTitle">知识库详情</h2>
+                    <p class="detail-sub">上传 PDF、Word 或 Markdown 文件进行 AI 训练</p>
+                </div>
+
+                <!-- 拖拽上传区 -->
+                <div class="upload-zone" id="uploadZone" ondragover="handleDragOver(event)"
+                    ondragleave="handleDragLeave(event)" ondrop="handleDrop(event)"
+                    onclick="document.getElementById('fileInput').click()">
+                    <div class="upload-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="48"
+                            height="48">
+                            <polyline points="16 16 12 12 8 16" />
+                            <line x1="12" y1="12" x2="12" y2="21" />
+                            <path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3" />
+                        </svg>
+                    </div>
+                    <p class="upload-title">拖拽文件到此处上传</p>
+                    <p class="upload-sub">或者<span class="upload-link">点击此处从文件夹中选择</span>（支持 .pdf、.docx、.txt、.md）</p>
+                    <p class="upload-limit">单个文件不超过 20MB</p>
+                    <input type="file" id="fileInput" multiple accept=".pdf,.docx,.txt,.md,.doc" style="display:none"
+                        onchange="handleFileInput(event)">
+                </div>
+
+                <!-- 上传进度 -->
+                <div id="uploadProgress" style="display:none" class="upload-progress">
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <p class="progress-text" id="progressText">正在上传...</p>
+                </div>
+
+                <!-- 文件列表 -->
+                <div class="file-list-header" id="fileListHeader" style="display:none">
+                    <h3 class="file-list-title">文件列表 (<span id="fileCount">0</span>)</h3>
+                    <button class="sync-all-btn" onclick="syncAll()">全部同步</button>
+                </div>
+                <div class="file-list" id="fileList">
+                    <!-- 动态渲染 -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- 新建知识库弹窗 -->
+    <div class="modal-overlay" id="createKBModal" style="display:none" onclick="closeModal(event)">
+        <div class="modal">
+            <h3 class="modal-title">新建知识库</h3>
+            <div class="form-group">
+                <label class="modal-label">知识库名称 *</label>
+                <input type="text" id="kbName" placeholder="例如：产品常见问题" class="modal-input" maxlength="20">
+            </div>
+            <div class="form-group">
+                <label class="modal-label">描述（选填）</label>
+                <textarea id="kbDesc" placeholder="简单描述这个知识库的用途..." class="modal-textarea" rows="3"></textarea>
+            </div>
+            <div class="modal-actions">
+                <button class="modal-cancel"
+                    onclick="document.getElementById('createKBModal').style.display='none'">取消</button>
+                <button class="modal-confirm" onclick="createKB()">创建</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast -->
+    <div id="toast" class="toast"></div>
+
+    <script src="js/admin.js"></script>
+</body>
+
+</html>

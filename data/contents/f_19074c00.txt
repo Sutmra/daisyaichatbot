@@ -1,0 +1,1070 @@
+www.witlink.com
+Utility Solution & Wireless Communication Provider
+WitCIS(客户信息系统)_STD标准版
+产品培训
+                                      
+JAN.21 2025
+
+Utility Solution & Wireless Communication Provider
+00 演示会目的
+
+Utility Solution & Wireless Communication Provider
+01
+产品概述
+•市场现状
+•目标市场和客户群体
+•市场痛点
+•产品重要性
+•基本概念
+02
+产品功能及系统演示
+•功能概述
+•核心功能及演示
+03
+产品优势
+•功能优势
+•技术架构&应用架构
+•系统压测性能
+04
+产品培训与支持
+•营销策略
+•产品推广资料
+•产品推广支持方式
+05
+Q&A
+00 发布会整体结构
+
+Utility Solution & Wireless Communication Provider
+101
+PART
+产品概述
+市场现状 | 目标市场和客户群体 | 市场痛点 |产品重要性 |基本概念
+
+Utility Solution & Wireless Communication Provider
+01 产品背景——市场现状：信息孤岛
+概念
+“信息孤岛” 是指在社会信息化过程中，由于信息系统、软件系统、数据库之间关联性差，难于互联、互通等
+操作的弊端，造成数据共享性差，信息难以融合贯通，无法实现业务协作，系统效率低，而无法真正实现信
+息化的问题。
+弊端
+多系统成本高系统维护费高二次开发难度大
+跨系统操作体验差
+
+Utility Solution & Wireless Communication Provider
+目标市场
+亚洲、欧洲、非洲和美洲等全球关键区域;
+全面渗透至供水、电力、燃气等能源及公共事业领域；
+01 产品背景 — 目标市场和客户群体
+客户群体
+发电和供电企业（大型电力公司）、电力设备企业、二级电力分销商、电力消费群体；
+系统使用者（角色）
+电力公司工作人员： 客服、现场工作人员（一线装拆表员）、收费员、管理人员;
+
+Utility Solution & Wireless Communication Provider
+01 产品背景——市场痛点
+市场痛点：要求完整的一套能够实现业务流程化管理、客户信息集成、数据同源、精细化管理的软件系统，
+该套系统包含客户管理、账单管理(后付费)、售电管理(包含AMI，预付费并支持STS1、STS2标准）、电表管
+理（MDM)、服务器监控工具、移动端APP，而不是希望使用各套分散的系统。
+
+Utility Solution & Wireless Communication Provider
+01产品背景——产品重要性（集成化&模块化）
+AMI/HES系统 | 抄表/计量点数据
+BPM/业务流程管理系统| 档案数据
+ERP/资产管理系统 | 计量资产数据
+Billing /后付费系统  | 后付费数据
+Vending/预付费系统 | 预付费数据
+CIS
+功能
+集成
+模块
+组合
+预付费/后付费一体的CIS
+账单
+预付费
+收费
+资产
+客户关系
+后付费账单系统
+账单
+收费
+资产
+预付费售电系统
+资产
+客户关系
+客户关系
+预付费
+
+Utility Solution & Wireless Communication Provider
+01 产品背景 - 产品重要性（对外部：电力公司）
+01
+加强市场开发
+系统支持客户关系管理（CRM）模块，可帮助电力公司制定精准的营销策略，如定向推送服务等，
+以开拓新的电力市场。例如，系统可以根据客户需求和偏好，定制个性化的营销活动，提高市场覆盖
+率和客户忠诚度。
+02
+加强管理 
+把用电管理工作的各个方面都将纳入现代化管理，领导可以方便快捷的了解和控制各方面的工作。领
+导可通过系统实时监控查看用电情况和催费进度，及时调整管理策略，提高管理效率。
+03
+提高电费回收率
+本系统可采用现金．支票、账户余额等多种收费方式交纳电费；用户可以根据个人资金状况选择灵活
+的缴费金额，所以使用本系统可在很大程度上提高供电局的电费回收率。
+04
+提质增效
+系统通过自动化和智能化功能降低工作人员的劳动强度，如系统可自动生成抄表清单，自动电费计算
+等减少人工操作，降低人力成本。
+
+Utility Solution & Wireless Communication Provider
+01 产品背景 — 产品重要性（对银河&慧软）
+将公司现有产品的功能与CIS进行整
+合，实现了产品功能的集成化，突破
+传统产品功能局限。
+产品功能集成化
+将电力消费者作为CIS新的客户群体，
+实现业务范围扩大化。
+突破业务边（ToB→ToC）
+实现了技术平台的统一化，提高了技
+术模块的可复用性，为公司可持续发
+展筑牢坚实技术根基。
+技术平台统一化
+
+Utility Solution & Wireless Communication Provider
+01 产品背景 — 基本概念
+ 
+WitCIS作为多行业创新方案，贯穿 “装、抄、核、
+收、售” 关键业务流程链条。
+同时，以精准的数据管理，全面提升运营效益和
+资金流转速度，广泛应用于能源、公用事业等领
+域。
+中文全称: 客户信息系统
+英文全称: Customer Information System
+ 
+英文简称：WitCIS
+Q: 什么是客户信息系统
+
+Utility Solution & Wireless Communication Provider
+01 产品背景 — 基本概念：名词解释
+MVP版本：
+即最小可行性产品版本，指在最少的开发周期和资源投入下，实现最核心功能的产品版本。
+STD版本：
+即标准版，指的是具备产品基础功能且面向广大用户的标准配置版本，是经过兼容性跟功能性提升后，
+能够正式推向市场进行商业销售的产品版本。
+
+Utility Solution & Wireless Communication Provider
+02
+PART
+产品功能
+业务架构 |功能清单 | 核心功能
+
+Utility Solution & Wireless Communication Provider
+02 产品功能——业务架构
+Billing 
+Management 
+Collection Management
+CIS 
+Customer Relationship 
+Management
+PC
+HES/ AMI 
+电表数据
+客户信息
+账单信息
+能源数据
+收费数据
+Metering Asset Management
+Prepay
+账单数据
+APP
+后付费
+预付费
+客户信息
+资产信息
+客户信息
+资产信息
+Monitoring 
+Analysis
+基
+本
+功
+能
+Meter Reading Management
+计费准备数据
+Archiving 
+电表数据
+指令
+客户信息
+资产信息
+STS
+
+Utility Solution & Wireless Communication Provider
+CIS 功能模块
+功能项功能解释实际项目痛点分析
+监控台仪表板提供集中的界面，监控与分析关键性指标和数据。
+数据看板最初是在LGR项目中，VEND对标竞品Itron打造的。CIS的竞争对手某S产品首页也是数据看板。经过多次迭代，
+CIS数据看板比竞争对手更强大，指标更丰富，且支持自定义后台配置功能，能够有效降低定制化成本。
+工单允许用户查看和管理所有的业务（服务）请求，包括进行中、
+已完成和已作废的请求。（工作流和审批流）
+PUA 项目，电力公司部分业务操作存在痛点。首先，没有审批流，或者采用线下审批，这使得业务的时效性和准确性大打
+折扣。其次，部分工单线下签署，不仅效率低，而且归档追溯困难。
+而我们的系统支持流程可配置，能解决不同公司内部业务流程的差异问题。无需额外编码，只需在后台流程管理模块进行
+配置，定制成本低。
+业务处理多种类型的业务，如新装增容、用电变更、业务辅助等
+常见的用电业务：客户新装、付费模式变更、异常处理、换
+表、销户等。
+在EYL项目中，就是受制于SAP不配合做接口集成，我们又没有做客户装表接线业务的功能/产品。如果有做这类报装业务
+的能力，可以在这个阶段临时使用，更加规范。
+现行的多个项目中，业务产生的收费，转换为欠款的操作，无法系统自动完成，需要人工记录欠款合同金额，并新建欠款，
+操作过程中存在金额错误的风险。
+抄表负责电表读数的采集、数据复核与修改，确保数据的准确性
+和完整性。
+EYL项目中在跟电力公司对接过程中，对方也多次提到有数据异常校验的需求，如果接入CIS，可以帮助他们进行数据准确
+性校验。
+核算负责费率、费用的配置，电费的核算、复核与发行，以确保
+电费数据的准确性。
+这部分主要是对后付费的支持，PUA项目同一家电力公司也在招标客户关系管理+后付费系统。如果有CIS，我们就有产品
+能够应标。而且客户关注产品的整体性，CIS是一个一体化的平台，可以满足客户期待。另外在EYL项目中预付费有金额结
+算跟电量结算的使用场景，而我们这里费率支持多种配置等满足多样化需求。
+收费管理后付费电费、预付费购电、欠款等收银台的工作，支持
+收款、清算与退款等操作。
+PUA、BFN、EYL等一些项目中，后付费、预付费采用两套系统进行收费，操作员需要在两个系统间来回切换进行收费，
+增加了操作复杂度，且两种业务的数据无法在同一个系统中呈现且需要维护至少两套系统，增加了管理成本。
+查询
+提供全面的客户信息查询功能，实现360°客户视图，以便更
+好地理解和服务客户。
+各个项目中用电客户的信息较为分散，需要查看一个用电客户的信息，需要切换多个菜单进行查看，操作繁杂，并且信息
+有可能未展示完全，导致信息不完善。竞对cuculus的客户合同档案相对于我们的客户360视图也只是冰山一角，所以在这
+个方面CIS有绝对的优势。
+资产用于计量装置及其他资产的跟踪、管理和维护。高效地管理
+其资产。
+对计量资产缺乏统一、规范的管理，跟外部系统对接不仅耗时费力，还容易出现数据传输错误等问题。而CIS从资产的入库、
+安装到使用，每个环节都记录得清清楚楚。资产台账的功能也解决了市面上项目因计量资产混乱导致的一系列问题。
+设置与配置
+中心
+根据业务需求和操作习惯进行参数设置，以满足不同的业务
+需求和操作习惯。
+满足不同电力公司对业务规则的差异化需求，也作为总结项目经验的落脚点，随着项目越做越多，配置中心的可配置项将
+越来越丰富，产品能力将越来越强大。
+02 产品功能——模块概述
+
+Utility Solution & Wireless Communication Provider
+CIS 功能模块
+功能项功能解释实际项目痛点分析
+APP管理管理CIS关联的APP安装包与APP中CIS对应的IP地址
+二维码。
+EYL项目中APP管理不统一，导致APP安装包、是否强制更新管理混乱。APP在接CIS后台系统的时候也经常需要借助第三
+方的IP地址生成二维码网址来实现链接。而CIS让APP安装包管理与IP二维码生成都成为了可能。
+安全模块管理
+用于按照相关规范对令牌数据进行加密,包含加密令牌
+数据所需的所有算法,可用于电表生成token等。
+南非市场合法化需要采购硬件安全模块。CIS支持用实体安全模块或者虚拟安全模块来生成token，可根据市场合规性来做
+动态调整。
+代理管理允许管理所有的代理商，包括直营跟第三方。支持给
+第三方进行预充值跟后结算。
+ALP市场，电力公司营业模式为直营管理城区的用电户，其他郊区的用电户为第三方代为管理（收费）。目前来说第三方都
+是只负责收费相关的业务，但2025年开始，电力公司计划将收费的业务扩展到装表、抄表、核算、收费全业务流程，把这
+些工作全部放开给到第三方代理实现。这种趋势说明，我们未来的商业发展不仅应该关注电力公司的直营招投标项目，也
+需要把目光同时转向肯尼亚市场上电力公司的二级市场---第三方代理业务。
+信用管理允许针对某类客户或者某种付费模式的用电户进行信
+用评分，可用于评估用电行为，针对性进行客户的差
+异化服务。
+投标项目中越来越多的市场对于风险控制的需求与日俱增，其中以DOT跟VBL的投标项为例，需求指向“客户信用管理”功能。
+原因：电力企业的电费回收风险攀升，客户服务同质化严重，需要构建以信用评分为核心的动态风险管理体系，实现“粗放
+催收”向“信用差异化服务”转型，最终实现电力企业的降本增效的目的。
+02 产品功能——模块概述
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：客户关系管理（CRM）---名词解释
+后付费：先用电，后付费，按固定周期接收电费账单并支付。
+预付费：先付费，后用电，通过充值来购电，用多少扣多少。
+客户新装：低压居民、商业、工业等用电户向电力公司申请新装电表的服务。
+付费模式变更：指的是某用电户从一种电费支付方式转换到另一种（预付费\后付费转换）。
+销户：客户因为拆迁等原因需要停止用电,客户终止与电力公司的供电合同，并正式结束用电服务。
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：客户关系管理（CRM）
+       业务受理（低压新装）->现场勘查->装
+表->供电->归档
+•基本信息
+•合同信息
+客户全方位
+3
+•设备信息
+•交易信息
+流程化作业(工作流、审批流）
+2
+业务全过程（新装、变更、销户）
+1
+•新装
+•换表
+•费率、付费模式变更
+•销户
+•业务人员
+使用角色
+4
+•现场工作人员
+•无纸化作业
+•工作流程自动化
+解决痛点
+4
+5
+Business Management
+Customer Relationship Management（CRM ）
+Business Type
+Create
+DeleteChange
+ Low  Voltage(LV)
+ High  Voltage(HV)
+ Batch LV
+Query Management
+ Archives  Query 
+Customer  
+Archives 
+Query 
+Business Process Management（BPM）
+Process 
+Operations
+Create
+Transfer
+Return
+Terminate
+Work Order  Query Backlog Work OrderAll Work Order
+ Payment Method
+ Meter 
+ Exception Handling
+ Tariff 
+Contract 
+Archives 
+Meter Reading 
+Archives 
+Account cancellation
+Application
+Type
+Business Workflow
+Approval Processes
+Transaction
+Archives 
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：客户关系管理（CRM）-业务流程示例
+业务受理员
+•业务受理
+现场勘察员
+•供电方案制
+定
+装拆表员
+•装表
+业务受理员
+•归档
+岗位
+职责
+业务
+环节
+•客户信息
+•合同属性
+•账户信息
+•联系信息
+•证件信息
+•表计信息
+•受电方案
+•客户档案
+•抄表、计费、
+收费等其他
+业务环节
+数据
+支撑
+部门
+部门A部门B部门C部门A
+工作流串联各岗
+协同打造客户档案
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：客户关系管理（CRM）--360°统一视图示例
+一站式界面提供完整的用电户信息支持
+               ——资产、计量、价格、合同等
+客户全生命周期历史信息跟踪
+                   ——计费、用电、交易、服务等
+借鉴电信璀璨明珠eTOM（增强型电信运营图）
+建立“以客户为中心”的三户模型
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：客户关系管理（CRM）-消息中心示例
+精准推送：精准直击所需消息
+消息订阅：一键开启消息追踪
+及时通知：重要消息闪电送达
+消息服务：账单缴费通知、欠款通
+知、预付费充值成功通知等
+消息渠道：短信、邮件、APP
+
+Utility Solution & Wireless Communication Provider
+场景：
+在电力公司的服务大厅，一位客户李大爷前来，提出
+想要进行新装电表的服务。
+这时，作为业务人员的我们，该如何在系统上操作呢？
+02 产品介绍——核心功能：客户关系管理（CRM）-操作演示
+ 客户新装
+抄表
+核算
+收费
+费率/费用配置
+客户360视图
+后付费用电户
+付费模式变更
+客户360视图
+预付费用电户
+预付费充值
+销户
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：计量资产管理（Metering Asset）
+•仓库信息
+•资产信息
+资产建档
+1
+资产管理（全生命周期）
+2
+•入库（手动入库、计量装置返库）
+•出库（领取计量装置）
+查询
+3
+•资产入库/出库记录
+使用角色
+4
+•仓库管理员
+解决痛点
+5
+•流程精简
+•单平台畅行
+Metering Assets Management
+Asset 
+Management
+Stock In
+Query Management
+ Archives  Query Asset  Archives  Query 
+Warehouse 
+Management
+Stock Out
+Warehouse 
+ Create
+ Edit
+ Delete
+Asset Type
+ Meter
+ PT/CT transformer
+ SIM 
+ Inventory Query  Inventory Query 
+Metering Asset Management
+ Inventory Alert Query 
+Stock Return
+
+Utility Solution & Wireless Communication Provider
+场景：
+在电力公司的仓库，一位装表员前来领表。
+这时，作为仓库管理员的我们，该如何在系统上操作呢？
+02 产品介绍——核心功能：客户关系管理（CRM）-操作演示
+ 客户新装
+抄表
+核算
+收费
+费率/费用配置
+【资产】
+领取计量装置
+付费模式变更
+客户360视图
+预付费用电户
+预付费充值
+销户
+客户归档
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：抄表管理（MRM）---名词解释
+电费年月：电费账单专属时间标签。电费账单发行的年份与月份，例如，"202411"表示的是2024年11月的电
+费账单。
+翻月初始化：开启新的电费账单计费周期。（开启新的后付费业务流程）电费年月更新，所以叫“翻月”。
+抄表计划：抄表的行动指南，定义抄表的开始日期及抄表的人员，抄表的方式。
+抄表初始化：指翻月后的抄表计划更新，定义本电费计费周期开始时电表的读数。
+起码：就是电力计量周期开始时电表显示的读数，是计量的起始点。
+止码：电力计量周期结束时电表的读数，标志着一个计量阶段的结束。
+度差：电费计算的依据，止码减去起码，即用电量。
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：抄表管理（MRM）
+•新建抄表段
+•无抄表段客户分配
+抄表段管理
+1
+抄表管理（抄表全流程）
+2
+•生成抄表计划
+•抄表（人工、掌机、AMI）
+•抄表数据管理（导入/修改）
+VEE管理
+3
+•复核规则管理
+•抄表数据复核
+•抄表数据复核异常处理
+使用角色
+4
+•抄表班长、抄表员
+•抄表数据复核员
+解决痛点
+5
+•保障数据精准
+•满足多种抄表场景需求
+•抄表流程规范化
+Meter Reading Management
+Metering Section 
+Management
+Metering Section
+VEE Management
+VEE Rules Management
+VEE Rules
+Meter Reading
+Process Management 
+No Metering 
+Section-Customer
+Generate Meter Reading Plan
+Meter Reading Management (MRM)
+VEE Result
+Meter Reading
+Meter Reading Data 
+ Exception Handling 
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：抄表管理（MRM） ——移动APP
+现场作业APP
+提供基于手机的现场工作渠道，简化繁琐的营销系统业务流程，保证信
+息的即时上传、更新或暂存；支持现场工作人员及时查看任务详情，获
+取现场工作需要的相关信息。
+支持业务：
+•任务通知
+•下载抄表任务
+•上传抄表数据
+•现场勘察、录入装拆信息等环节数据录入
+全场景覆盖：掌机APP与CIS系统融合，兼容机械、智能表，全表型/全场景覆盖
+异常处理保障：作为其他抄表方式的有力补充，迅速应对异常抄表情况，保障抄表工作顺利进行 
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：抄表管理（MRM）- VEE
+数据校验数据编辑
+数据获取
+数据发布
+数据校验规则
+校验规则项规则解释
+表码反转本次电表读数小于上次电表读数。
+0表码本次电表读数等于0。
+超预设阈值表码获取的电表读数超过预设电表数据阈值。
+电量突增本次电量远远大于上次电量，超出预设波动范围。
+电量突减本次电量远远小于上次电量，超出预设波动范围。
+总表码不等
+T0不等于T1-TN和
+自动化校验:
+校验配置：自定规则，隐患锁定
+精准纠错:   自动揪错，误差清零
+保障发布：人机协同，数据无忧
+
+Utility Solution & Wireless Communication Provider
+场景：
+    客户李大爷装完电表已经一个月了。电力公司为了清
+楚了解这段时间李大爷家的用电量，开启了新的计费周
+期。与此同时，咱们抄表员和抄表复核员也收到了相关
+的抄表计划与通知，系统显示李大爷需要进行人工抄表。
+    此刻，作为抄表员和抄表复核员，我们需要在系统上
+该进行哪些操作呢？
+02 产品介绍——核心功能：抄表管理（MRM）-操作演示
+ 客户新装
+抄表
+核算
+收费
+费率/费用配置
+付费模式变更
+客户360视图
+预付费用电户
+预付费充值
+销户
+抄表数据复核
+掌机抄表
+人工抄表
+抄表初始化
+AMI 远程抄表
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：计费&收费管理
+•计费规则配置（费率、费用管理）
+•电费自动计算、电费复核、电费自动发行
+计费管理
+1
+收费管理
+2
+•收费渠道：柜台收费
+•收款方式：
+     现金、账户余额、支票、银行转账
+•款项类型：电费账单、欠款、费用
+退款管理、清算管理
+3
+•支持对收费单退款、柜台开关柜跟清算
+使用角色
+4
+•核算员&收费员
+解决痛点
+5
+•自动化流程大幅提升计费效率
+•智能通知收付，资金畅流
+Billing Management
+Billing Parameters 
+Management
+Tariff Types
+Billing 
+Management
+ElectricityBill Calculation
+Billing& Collection Management 
+Electricity Bill Issuance
+Tariff Versions
+Collection Management
+Collection 
+Management
+Collection 
+Method
+ Counter
+ APP
+ Credit 
+Card
+Payment Method
+ Cash
+ Account Balance
+ Check
+ Pos Machine
+Fees Type
+ Electricity 
+Bill
+ Arrears
+ Fee
+Query Management
+Collection Order  Query 
+Fee 
+Types
+Fee 
+Versions
+Electricity Bill Validation
+Refund 
+Management
+Apllication
+Review
+Refund 
+Refund Order  Query Arrears  Query 
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：计费管理---名词解释
+费率：费率电力行业里也被称为电价，也就是每一度电需要支付的价钱（电度电价）。
+电度电费：根据客户的电量来计算收取的费用。
+费用：固定费用，一般来说是除去电度电费以外的一些服务费。
+电费发行：电费计算跟复核无误后，通过短信邮箱等形式告知用电户缴纳电费金额。
+最大需量：反映的是用户在一个计费周期内用电需求的巅峰状态 。当用户用电达到高功率峰值时，会对电网
+造成较大的瞬间冲击。为了平衡高峰用电带来的额外成本，电力公司除了收取常规的电度电费，还会额外收
+取一笔最大需量费用。
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：计费管理——电价管理
+手续费
+固定费用
+功率因数调整电费
+其他费用
+电费=电度电费(费率）+其他费用（费用）
+服务费
+   针对居民、商业用户，支撑阶梯、分时、季节等电量计费模式
+   针对大工业用户，支持容量或需量计费方式
+   支持固定费用，服务费等多种电费管理手段
+阶梯电价
+•根据不同的用电间隔制定电价
+分时电价
+•根据峰谷期制定电价
+•根据节假日和季节制定电价
+季节电价
+电度电费
+容量电费
+•根据变压器容量计算基本电费
+需量电费
+•根据最大需量计算基本电费
+广泛适配、多元灵活
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：计费管理——国内 单一制电价和两部制电价 示例
+二部制电价
+单一制电价
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：计费管理——国外 单一制电价和两部制电价 示例
+ 
+单一制电价
+二部制电价
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：计费管理——国内水气结构示例
+二部制
+单一制
+
+Utility Solution & Wireless Communication Provider
+场景：
+    电力公司发布新费率费用细则，包括不同阶梯的费率跟
+费用的标准、计费方式的变化等。预计26年1月22号开始启
+用。
+    那么作为系统的配置员，你该如何在系统操作？保证
+新规则的准时上线？
+02 产品介绍——核心功能：计费管理-操作演示
+ 客户新装
+抄表
+核算
+收费
+费率/费用配置
+客户360视图
+后付费用电户
+付费模式变更
+客户360视图
+预付费用电户
+预付费充值
+销户
+抄表数据复核
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：计费管理——后付费计费业务流程示例
+抄表
+抄表数据复核电费计算电费复核
+电费发行
+电子邮件
+纸质账单 
+ 自动短信
+用电户
+自动化流程，精准计费
+人机协作，灵活提效
+
+Utility Solution & Wireless Communication Provider
+场景：
+    客户李大爷这段时间的用电量刚被抄表员抄回来啦，
+现在，电力公司着急要算出李大爷的 202601的电费账单。
+    那么作为系统的核算员，你该如何在系统操作？并且
+保证李大爷的电费账单完整地通知给他或者他的家人？
+02 产品介绍——核心功能：计费管理-操作演示
+ 客户新装
+抄表
+核算
+收费
+费率/费用配置
+付费模式变更
+客户360视图
+预付费用电户
+预付费充值
+销户
+电费复核
+电费计算
+电费发行
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：收费管理---收银台
+CIS- 收银台截图
+业务多元：
+涵盖预付费充值、后付费电费收费以及欠款收取等
+多种业务类型，满足不同用电户的缴费需求。
+操作便捷：
+客户在收银台由收费员进行开关柜、结账操作，流
+程简单直接，配合多种支付方式，有效提升收银效
+率 。
+
+Utility Solution & Wireless Communication Provider
+场景：
+    客户李大爷的儿子在邮箱上收到电费账单之后，过了
+几天跑到电力公司的营业厅，想要支付他爸爸的202601
+电费账单。
+    那么作为营业厅的收费员，你该如何帮助他完成这笔
+缴费操作呢？
+02 产品介绍——核心功能：收费管理-操作演示
+ 客户新装
+抄表
+核算
+收费
+费率/费用配置
+付费模式变更
+客户360视图
+预付费用电户
+预付费充值
+销户
+
+Utility Solution & Wireless Communication Provider
+场景：
+    客户李大爷发现自己儿子每个月都要去营业厅付电费，
+十分麻烦，所以到到柜台主动申请更换付费模式，想更
+改成先充后用的用电方式，他现在的诉求就是不换表就
+能直接更换付费方式。
+    那么作为电力公司柜台的业务人员，你该如何帮助他
+完成付费模式变更的业务呢？
+02 产品介绍——核心功能：付费模式变更-操作演示
+ 客户新装
+抄表
+核算
+收费
+费率/费用配置
+付费模式变更
+客户360视图
+预付费用电户
+预付费充值
+销户
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：预付费售电
+CIS - 预付费售电
+多样化购电(柜台/APP/USSD/网站/SMS)
+远程下发
+AMI 系统
+电表
+短信 小票
+手动充值
+STS
+交易
+算费
+代理
+现金 支票 转账 电子支付
+配置更灵活，满足多市场需求
+
+Utility Solution & Wireless Communication Provider
+场景：
+    新的一年，客户李大爷收到儿子给的不少红包，心里
+乐开了花，寻思着拿这些钱给自家预付费电表多充点钱，
+于是来到了电力公司的营业厅。
+    那么作为营业厅的收费员，你如何帮助他呢？
+02 产品介绍——核心功能：预付费售电---操作演示
+ 低压新装
+抄表
+核算
+收费
+费率/费用配置
+客户360视图
+后付费用电户
+付费模式变更
+客户360视图
+预付费用电户
+预付费充值
+销户
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：数据看板
+领
+导
+层
+总览全局
+业
+务
+管
+理
+企
+业
+中
+层
+关注领域
+•关注宏观内容
+•关注展示内容的广度，辅助决策
+•凸显重点、全方位、多角度，例如：经营成果、工作成效、核心指标等
+•
+关注业务态势，监控业务运行风险
+•
+关注展示内容的深度、进而从专业角度钻取分析
+•
+展示内容需要围绕相关业务主题展开，例如：不同维度的图形化方式展现
+业务分析掌控风险
+业务监控指标排名
+重点工作
+精管细控：多维度展示数据，精准把控业务细节，实现精细化
+提升决策效率：实时更新、可视化展示，更快速获取信息
+看板自定义：可依据客户需求，灵活自定义看板展示内容
+开发/交付周期更短：强大的可配置功能，大幅简化开发流程与交付周期
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：数据看板 - 自定义数据看板示例
+CRM-
+指标
+新装增容用户电量增长
+贡献率
+业扩报装完成情况
+用电客户情况
+MRM-
+指标
+抄表及时率（
+%)
+实抄率（
+%)
+抄表计划完成率（
+%
+）
+抄表正确率（
+%
+）
+CIS-
+综合指标
+电费及平均电价变化趋势
+Billing-
+指标
+售电均价、购电均价情况
+售电量、售电费情况
+用电构成
+Collection-
+指标
+陈欠电费回收情况
+当年电费回收情况
+当期电费回收情况
+电费回收情况
+Prepay-
+指标
+实时售电数据
+历史交易统计
+售电业务运行趋势
+关键指标
+数据看板- 预制模板
+后付费分析看板
+交易数量
+交易总金额
+电费账单总金额
+电费回收率
+平均账单天数
+欠款回收率
+......
+预付费分析看板
+总交易量
+总营收
+售出电量
+欠款回收
+售电交易活跃度
+每月购买者指数
+......
+自定义展现
+客户业务看板
+总注册客户数量
+......
+
+Utility Solution & Wireless Communication Provider
+02 产品介绍——核心功能：数据看板 - 系统演示
+场景：
+      月底到了，又到财务数据汇总的关键节点，
+各个交易柜台预付费用电户当月的数据指标也
+累积了不少。
+    作为电力公司管理人员，要怎样借助系统快
+速获取这些数据，为决策提供参考呢？
+
+Utility Solution & Wireless Communication Provider
+03
+PART
+产品优势
+关键词 |功能优势 | 技术架构简介
+
+Utility Solution & Wireless Communication Provider
+平台
+化
+智动
+化
+一体化
+模块化
+
+Utility Solution & Wireless Communication Provider
+支撑更多销售场景：与CIS系统结合的模块化设计，通过License+规
+则配置，助力先落地产品A再基于客情推广产品B的销售场景。
+更快、更顺畅的交付和定制：通过更强大的功能+审批流配置+规则配
+置，整体减少设计开发工作量，优化了内部工作流程。
+增强客户信任和信心：新产品落地前需要经过完成的流程、严格测试、
+性能优化和安全检测，减少后期问题发生可能性。
+配套更齐全，问题早发现：配套自动化运维监控系统，系统内置的提醒
+机制，在问题出现时及时地、优先地通知运维人员，早于客户处理。
+一体化系统，整体性更强。
+更好的交互体验、更现代的视觉效果。
+03 产品优势 
+
+Utility Solution & Wireless Communication Provider
+03 产品优势 — 应用架构
+ 用户中心：
+ 系统级数据支撑、统一登录入口、集中管理权限
+STS模块：
+维护token/充值token的公共服务
+复用性
+
+Utility Solution & Wireless Communication Provider
+03 产品优势 — 技术架构简介
+消息总线&远程调
+用&数据共享
+Billing
+AMI
+User
+CRM
+Vend
+远程调用
+MMR
+AMI
+PAY
+Agent
+Vend
+高可用：一台机器挂了不影响系统使用
+高性能：分布式存储+缓存设计，打造极致性能
+可扩展：模块低耦合，可轻松扩展新模块或者适配新场景
+弹性伸缩：随着业务规模，动态追加或减少服务实例
+开放式设计：授权后可以对外提供标准接口
+插拔式设计：灵活组装模块，按需交付
+跨平台：一次编写，一次编译，多平台运行
+
+Utility Solution & Wireless Communication Provider
+03 产品优势 — 系统压测性能
+500W
+1000W
+0
+200
+400
+600
+800
+1000
+1200
+2024年2026年
+压测用电户数
+当下稳扛五百万户
+26年冲千万大关
+
+Utility Solution & Wireless Communication Provider
+PART
+产品培训与支持
+产品营销&推广资料&产品推广工作支持方式
+04
+
+Utility Solution & Wireless Communication Provider
+04 产品培训与支持——营销策略
+WitCIS 营销策略
+场景推荐模式具体内容
+无慧软系统的市场
+WitCIS直投
+针对新拓市场，客户往往更在乎上线速度和回款效率。
+1. “行业最佳实践”交付模式 (STD Standardized Model)
+策略： 利用 WitCIS 已沉淀的海外标准业务流程（如针对非洲市场预设的阶梯电费、功率因数考核逻辑），向客户输出“电力运营的标准模板”。
+吸引力： 客户不只是买了一个软件，而是买了一套成熟的、经过国际验证（如 ALP 项目经验）的运营管理体系。
+2. “轻量化 SaaS”订阅模式 (Pay-as-you-go)
+策略： 对于资金链紧张的小型运营商，提供“按用户数或交易量付费”的 SaaS 方案。（类似于现在的KPZ项目）
+吸引力： 极大地降低了客户的初次投入成本，实现业务的快速“拎包入住”。
+已有慧软Vending系统的
+市场
+系统平滑升级
+针对已有售电系统的这类客户，他们最大的顾虑是：升级系统会不会导致账单乱、用户闹、历史数据丢？
+1. “无感平滑迁移”承诺 (Zero-Downtime Migration)  （小范围区域试点，类似现在的ALP试点）
+策略： 提供配套的数据迁移工具和“双系统并跑”过渡方案，承诺历史账单和余额数据的 100% 准确对齐。
+吸引力： 消除了客户对“系统迭代风险”的恐惧，降低其决策成本。
+2. “全渠道业务扩展”包。（未来BFN等市场）
+策略： 旧 Vending 往往只能售电，WitCIS 可以作为升级包，一次性赠送/低价开启**后付费抄表、全业务流转、APP自助服务**等功能。
+吸引力： 让客户感受到升级不仅是系统的替换，更是业务范围的成倍扩张。
+
+Utility Solution & Wireless Communication Provider
+04 产品培训与支持——系统了解
+官网解决方案: https://www.inhegroup.com/solutions/smart-metering
+产品操作手册
+
+Utility Solution & Wireless Communication Provider
+产品宣传彩页
+04 产品培训与支持——产品推广资料&推广工作支持方式
+产品沟通微信群
+产品介绍PPT（中英文）
+
+Utility Solution & Wireless Communication Provider
+05
+PART
+Q&A
+
+Utility Solution & Wireless Communication Provider
+THANKS
