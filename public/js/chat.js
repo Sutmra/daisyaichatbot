@@ -1,5 +1,5 @@
 // 用户端 AI 对话 JS
-const API_BASE = localStorage.getItem('API_BASE') || '';
+const API_BASE = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') ? '' : 'https://daisyaichatbot001.onrender.com';
 
 // 权限检查（允许未登录访问，使用默认用户）
 let currentUser = JSON.parse(localStorage.getItem('user') || 'null');

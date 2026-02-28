@@ -1,5 +1,5 @@
 // 后台知识库管理 JS
-const API_BASE = localStorage.getItem('API_BASE') || '';
+const API_BASE = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') ? '' : 'https://daisyaichatbot001.onrender.com';
 
 // 权限检查
 const user = JSON.parse(localStorage.getItem('user') || 'null');

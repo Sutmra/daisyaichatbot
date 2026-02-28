@@ -1,7 +1,9 @@
 // 登录注册页面 JS 逻辑
 
-// 动态识别 API 地址：优先从 localStorage 读取，本地开发默认为空（同域），生产环境请设置为 Render 后端地址
-const API_BASE = localStorage.getItem('API_BASE') || '';
+// 动态识别 API 地址：本地开发默认为空（同域），生产环境自动指向 Render 后端
+const API_BASE = (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')
+    ? ''
+    : 'https://daisyaichatbot001.onrender.com';
 
 // Tab 切换
 function switchTab(tab) {
